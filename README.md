@@ -1,5 +1,5 @@
 # Connect4
-Play connect 4 with the minimax algorithm
+Play connect 4 against the minimax algorithm
 
 ### How it works ###
 This implementation of the minimax algorithm works by looking ahead by a specific number of moves and after getting all destinies for each possible move, it would have the **double[] bs** array representing the score for each move. The index of the highest number is the number of the best slot that should be the next move.
