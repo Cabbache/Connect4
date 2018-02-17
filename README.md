@@ -9,3 +9,5 @@ This implementation of the minimax algorithm works by looking ahead by a specifi
 
 ### Details on the algorithm ###
 The method **percieve(,,,)** plays the most important role. It works recursively and is called for each possible branch by the **think(,,)** method. **percieve(,,,)** draws a tree where treminal nodes are possible ways of finishing the game. In the diagram, red terminal nodes represent victory by opponent, green terminal nodes represent victory by the algorithm and grey nodes are neutral. For each unique terminal colored node, **7^(depth-hyperLength) * p** is added to the score to that branch where depth is how deep further it should go, hyperLength is how deep it should look (entered by the user), 7 is the width of the game and p is 1 or -1 depending on which player is playing.
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
